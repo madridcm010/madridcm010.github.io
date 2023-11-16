@@ -1,0 +1,12 @@
+html{
+    background-color: black;
+    width: 100%;
+}
+body{
+    width: 100%;
+    min-height: 100%;
+    
+}
+.index-home{
+    color: white;
+}
