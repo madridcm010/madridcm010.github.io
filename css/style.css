@@ -1,14 +1,13 @@
-/*
-html{
-    background-image: url(bav);
-    width: 100%;
+body,html{
+    height:100%
 }
-body{
-    width: 100%;
-    min-height: 100%;
-    
+.bg{
+    background-image:url("/images/background.png");
+    image-rendering: -webkit-optimize-contrast;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .index-home{
     color: white;
 }
-*/
