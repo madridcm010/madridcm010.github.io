@@ -3,18 +3,32 @@ html{
     height:100%;
     overflow:auto;
 }
-    
  body{
         min-height:100%;
         background-image:url("/images/background.png");
         image-rendering: -webkit-optimize-contrast;
         background-position:50% 50%;
-        background-size: cover;
         background-repeat:no-repeat;
         background-attachment:fixed;
  }
+ header{
+    display:flex;
+    margin:50px;
+    font-size:45px;
+    padding:20px;
+    text-decoration: none;
+}
+ .text{
+    color: #e7b077;
+    width:73dvh;
+    padding-left: 13.5%;
+    padding-bottom: 15%;
+ }
  .profile{
-    margin:0;
+    padding:400px;
+    margin:0px;
+    color:#e7b27b;
+    font-size:xx-large;
  }
  .profile-pic{
     padding-top:9%;
@@ -22,6 +36,7 @@ html{
  }
 ul{
     list-style-type: none;
+    display:flex;
 }
 footer{
     width:50dvh;
