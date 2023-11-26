@@ -1,14 +1,66 @@
-body,html{
-    height:100%
+
+html{
+    height:100%;
+    overflow:auto;
 }
-.bg{
-    background-image:url("/images/background.png");
-    image-rendering: -webkit-optimize-contrast;
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
     
+ body{
+        min-height:100%;
+        background-image:url("/images/background.png");
+        image-rendering: -webkit-optimize-contrast;
+        background-position:50% 50%;
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+ }
+ .profile{
+    margin:0;
+ }
+ .profile-pic{
+    padding-top:9%;
+    padding-left:46%;
+ }
+ul{
+    list-style-type: none;
 }
-.index-home{
-    color: white;
+footer{
+    width:50dvh;
+    margin:auto;
+}
+.socials{
+    display: flex;
+    padding-top:100%;
+    margin: 10px;
+    font-size: 45px;
+    text-decoration: none;
+}
+.copyright{
+    padding-left:75px;
+}
+.fa{
+    padding:20px;
+    text-decoration: none;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+/* set a color for each icon */
+.fa-instagram{
+    background: transparent;
+    color:#785e4c;
+}
+.fa-linkedin{
+    background:transparent;
+    color:#785e4c;
+}
+.fa-github{
+    background:transparent;
+    color:#785e4c;
+}
+.fa-twitter{
+    background:transparent;
+    color:#785e4c;
+}
+.copyright{
+    color:#785e4c;
 }
