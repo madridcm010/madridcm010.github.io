@@ -20,12 +20,24 @@ html{
         background-repeat:no-repeat;
         background-attachment:fixed;
  }
- .navbar a{
+ .header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 20px 10%;
+    background: green;
     display:flex;
-    margin:50px;
-    font-size:45px;
-    padding:20px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+ }
+ .navbar a{
+    margin:0px;
+    font-size:25px;
+    padding:25px;
     text-decoration: none;
+    color:white;
 }
  .text{
     color: #e7b077;
@@ -35,7 +47,7 @@ html{
  }
  .profile{
     padding:12%;
-    padding-top:7%;
+    padding-top:19%;
     margin:10px;
     color:#e7b27b;
     font-size:xx-large;
