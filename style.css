@@ -1,7 +1,13 @@
-
+@import url("https://fonts.google.com/specimen/Poppins?query=popp");
 html{
     height:100%;
     overflow:auto;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
 }
  body{
         min-height:100%;
@@ -14,7 +20,7 @@ html{
         background-repeat:no-repeat;
         background-attachment:fixed;
  }
- header{
+ .navbar a{
     display:flex;
     margin:50px;
     font-size:45px;
@@ -45,13 +51,16 @@ ul{
 footer{
     width:50dvh;
     margin:auto;
+    text-align:center;
 }
 .socials{
     display: flex;
     padding-top:100%;
+    padding-left:20%;
     margin: 10px;
     font-size: 45px;
     text-decoration: none;
+
 }
 .copyright{
     padding-left:75px;
