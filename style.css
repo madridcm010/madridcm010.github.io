@@ -1,4 +1,4 @@
-@import url("https://fonts.google.com/specimen/Poppins?query=popp");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 html{
     height:100%;
     overflow:auto;
@@ -19,6 +19,36 @@ html{
         background-position: center;
         background-repeat:no-repeat;
         background-attachment:fixed;
+ }
+ .skillset{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center; 
+                                                                                            
+ }
+ 
+ .skillset textskill{
+    height:100vh;                                                                                              
+ }
+.icons{
+    padding:10px;
+    padding-top:10%;
+    margin:0px;
+    font-size:60px;
+    background:transparent;
+    color:#785e4c;
+ }
+ .icons:hover{
+    opacity: 0.7;
+ }
+ .projects{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;     
  }
  .header{
     position: fixed;
@@ -43,11 +73,19 @@ html{
  .text{
     color: #e7b077;
     width:73dvh;
-    padding-left: 13.5%;
+    padding-left: 0%;
     padding-bottom: 15%;
  }
+ .text p{
+    font-size: x-large;
+ }
+ 
  .profile{
-    padding:12%;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;     
+    padding:13.5%;
     padding-top:19%;
     margin:10px;
     color:#e7b27b;
