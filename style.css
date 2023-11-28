@@ -102,6 +102,12 @@ body{
  .text span{
     color:var(--romancoffee);
  }
+ .text span:hover{
+    color:var(--harvestgold);
+ }
+ .text{
+    color:var(--harvestgold);
+ }
  .profile{
     height:100dvh;
     display:flex;
@@ -109,13 +115,12 @@ body{
     justify-content:center;     
     padding:22%;
     margin:10px;
-    color:#e7b27b;
     font-size:55px;
  }
  
 ul{
     list-style-type: none;
-    display:flex;
+    display:flex;                                                                               
 } 
 footer{
     width:100dvh;
