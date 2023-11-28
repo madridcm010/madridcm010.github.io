@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root{
+    --mirage:#151723;
+    --harvestgold:#e6b077;
+    --romancoffee:#785e4c;
+    --black:#333;
+    --Muesli:#Aa7f5d;
+}
 html{
     height:100%;
 }
@@ -8,38 +15,60 @@ html{
     box-sizing:border-box;
     font-family: 'Poppins', sans-serif;
 }
- body{
-        min-height:100%;
-        padding:0;
-        margin:0;
-        background-image:url("background.png");
-        image-rendering: -webkit-optimize-contrast;
-        background-size:cover;
-        background-position: center;
-        background-repeat:no-repeat;
-        background-attachment:fixed;
+
+body{
+    min-height:100%;
+    padding:0;
+    margin:0;
+    background-color:var(--mirage);
+    image-rendering: -webkit-optimize-contrast;
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+ }
+ .aboutme{
+    height:100dvh;
+    padding:15%;
+    width:55%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center; 
  }
  .skillset{
-    height:100vh;
+    height:100dvh;
+    padding:15%;
     display:flex;
     flex-direction: column;
     justify-content:center;
     align-items:center; 
                                                                                             
- }                                                                                       
+ }                                                                                      
 .icons{
     padding:10px;
     padding-top:10%;
-    margin:0px;
+    margin:15px;
     font-size:60px;
     background:transparent;
     color:#785e4c;
+    gap:35px;
  }
- .icons:hover{
+ .title span{
+    font-size:150px;
+    font-weight: 900px;
+ }
+ .title h2{
+    font-size:100px;
+    font-weight: 800px;
+ }
+ .icons i:hover{
+    transform: translatey(25px);
+    scale:2;
     opacity: 0.7;
  }
  .projects{
-    height:100vh;
+    height:100dvh;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -51,7 +80,7 @@ html{
     left:0;
     width:100%;
     padding: 20px 10%;
-    background: green;
+    background: transparent;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -65,35 +94,28 @@ html{
     text-decoration: none;
     color:white;
 }
- .text{
-    color: #e7b077;
-    width:73dvh;
-    padding-left: 0%;
-    padding-bottom: 15%;
+.navbar a:hover{
+    color:var(--Muesli);
+
+}
+ .text span{
+    color:var(--romancoffee);
  }
- .text p{
-    font-size: x-large;
- }
- 
  .profile{
-    height:100vh;
+    height:100dvh;
     display:flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content:center;     
-    padding:13.5%;
-    padding-top:19%;
+    padding:22%;
     margin:10px;
     color:#e7b27b;
-    font-size:xx-large;
+    font-size:55px;
  }
- .profile-pic{
-    padding-top:9%;
-    padding-left:46%;
- }
+ 
 ul{
     list-style-type: none;
     display:flex;
-}
+} 
 footer{
     width:100dvh;
     margin:auto;
