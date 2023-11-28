@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 html{
     height:100%;
-    overflow:auto;
 }
 *{
     padding:0;
@@ -96,21 +95,24 @@ ul{
     display:flex;
 }
 footer{
-    width:50dvh;
+    width:100dvh;
     margin:auto;
     text-align:center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .socials{
-    display: flex;
-    padding-top:100%;
-    padding-left:20%;
-    margin: 10px;
     font-size: 45px;
     text-decoration: none;
 
 }
 .copyright{
-    padding-left:75px;
+    font-size:medium;
+
+
 }
 .fa{
     padding:20px;
