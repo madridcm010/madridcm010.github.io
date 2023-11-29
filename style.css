@@ -6,6 +6,7 @@
     --nero:#333;
     --Muesli:#Aa7f5d;
     --black:#000;
+    --white:#FFF;
 }
 html{
     height:100%;
@@ -16,7 +17,10 @@ html{
     box-sizing:border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+.logo{
+    font-size:55px;
+    
+}
 body{
     min-height:100%;
     padding:0;
@@ -28,7 +32,7 @@ body{
     background-repeat:no-repeat;
     background-attachment:fixed;
  }
- a{
+a{
     color:var(--romancoffee);
 
 }
@@ -149,7 +153,7 @@ a:hover{
 ul{
     list-style-type: none;
     display:flex;                                                                               
-} 
+}
 footer{
     width:100dvh;
     margin:auto;
@@ -170,7 +174,7 @@ article{
 }
 .email{                                                                                                                                                                                                                                                                 
     color:var(--romancoffee);
-    font-size:14px;
+    font-size:15px;
     writing-mode: vertical-lr;
     text-orientation:upright;
     margin:auto;
