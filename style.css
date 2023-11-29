@@ -20,7 +20,7 @@ html{
 body{
     min-height:100%;
     padding:0;
-    margin:0;
+    margin:0px;
     background-color:var(--mirage);
     image-rendering: -webkit-optimize-contrast;
     background-size:cover;
@@ -28,14 +28,31 @@ body{
     background-repeat:no-repeat;
     background-attachment:fixed;
  }
+ a{
+    color:var(--romancoffee);
+
+}
+a:hover{
+    color:var(--harvestgold);
+}
+ a:link{
+    text-decoration: none;
+
+ }
  .aboutme{
     height:100dvh;
     padding:15%;
-    width:55%;
+    width:65%;
     display:flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content:center;
     align-items:center; 
+    border-bottom:3px;
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+    border-style: solid;
+    border-color:var(--nero);
  }
  .skillset{
     height:100dvh;
@@ -44,7 +61,12 @@ body{
     flex-direction: column;
     justify-content:center;
     align-items:center; 
-                                                                                            
+    border-bottom:3px;
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+    border-style: solid;
+    border-color:var(--nero);                                                                                   
  }                                                                                      
 .icons{
     padding:10px;
@@ -87,6 +109,12 @@ body{
     align-items: center;
     z-index: 100;
     right:0;
+    border-bottom:3px;
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+    border-style: solid;
+    border-color:var(--nero);
  }
  .navbar a{
     margin:0px;
@@ -127,15 +155,56 @@ footer{
     margin:auto;
     text-align:center;
     display:flex;
-    flex-direction: column;
+    flex-direction: column;                                     
     justify-content: center;
     align-items: center;
-
+}
+article{
+    overflow: hidden;
+    height:100%;
+}
+.titleright{
+    color:var(--romancoffee);
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+}
+.email{                                                                                                                                                                                                                                                                 
+    color:var(--romancoffee);
+    font-size:14px;
+    writing-mode: vertical-lr;
+    text-orientation:upright;
+    margin:auto;
+}
+.sidebarL{
+    height:100dvh;
+    width:160px;
+    background: #000;
+    z-index: 1;
+    position: fixed;
+    left:0%;
+    background:transparent;
+}
+.sidebarR{
+    height:100dvh;
+    width:160px;
+    background: #000;
+    z-index: 1;
+    position:fixed;
+    right:0%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background:transparent;
 }
 .socials{
     font-size: 45px;
     text-decoration: none;
-
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    position:relative;
+    transform: translatey(35dvh);
+    
 }
 .copyright{
     font-size:medium;
