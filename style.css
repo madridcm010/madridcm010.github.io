@@ -9,31 +9,28 @@
     --white:#FFF;
 }
 html{
-    height:100%;
+    height:100vh;
+    overflow-x: hidden;
 }
 *{
     padding:0;
     margin:0;
     box-sizing:border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family:'Poppins', sans-serif;
 }
 .logo{
-    font-size:55px;
-    
+    font-size:2.2rem;
 }
 body{
     min-height:100%;
     padding:0;
     margin:0;
     background-color:var(--mirage);
-    image-rendering: -webkit-optimize-contrast;
     background-size:cover;
-    background-position: center;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
  }
 a{
     color:var(--romancoffee);
+    transition: .5s ease;
 
 }
 a:hover{
@@ -43,29 +40,32 @@ a:hover{
     text-decoration: none;
 
  }
+ /*
+ About  ME SECTION!!!!!!
+ */
  .aboutme{
-    height:100dvh;
+    height:100%;
     padding:15%;
     width:100%;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center; 
-    border-bottom:3px;
-    border-top:0px;
-    border-left:0px;
-    border-right:0px;
+    border-bottom:.1rem;
+    border-top:0;
+    border-left:0;
+    border-right:0;
     border-style: solid;
     border-color:var(--nero);
  }
  .skillset{
     height:100dvh;
-    padding:15%;
+    padding:5%;
     display:flex;
     flex-direction: column;
     justify-content:center;
     align-items:center; 
-    border-bottom:3px;
+    border-bottom:.1rem;
     border-top:0px;
     border-left:0px;
     border-right:0px;
@@ -73,13 +73,12 @@ a:hover{
     border-color:var(--nero);                                                                                   
  }                                                                                      
 .icons{
-    padding:10px;
     padding-top:10%;
-    margin:15px;
-    font-size:60px;
+    margin:5%;
+    font-size:4rem;
     background:transparent;
     color:#785e4c;
-    gap:35px;
+    gap:2.2%;
  }
  .title span{
     font-size:150px;
@@ -106,53 +105,68 @@ a:hover{
     top:0;
     left:0;
     width:100%;
-    padding: 20px 10%;
+    padding: 2rem 9%;
     background: transparent;
     display:flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    right:0;
-    border-bottom:3px;
-    border-top:0px;
-    border-left:0px;
-    border-right:0px;
-    border-style: solid;
-    border-color:var(--nero);
  }
  .navbar a{
-    margin:0px;
-    font-size:25px;
-    padding:25px;
-    text-decoration: none;
-    color:white;
+    margin:0;
+    font-size:1.6rem;
+    padding:1rem;
+    text-decoration:none;
+    color:var(--romancoffee);
+    transition:.5s ease;
 }
 .navbar a:hover{
-    color:var(--Muesli);
-
+    color:var(--harvestgold);
+    text-decoration:underline var(--harvestgold);
 }
- .text span{
+ .profile span{
     color:var(--romancoffee);
  }
- .text span:hover{
+ .profile span:hover{
     color:var(--harvestgold);
  }
- .text{
-    color:var(--harvestgold);
+ section{
+    min-height:100vh;
+    padding:20rem 9% 2rem;
  }
- .profile{
-    height:100dvh;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;     
-    padding:10%;
-    margin:1rem;
-    font-size:4.2rem;
+ .home{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+   
+ }
+ .profile{ 
+    font-size:4.2rem; 
+    color:var(--harvestgold);                                                                                                                          
+ }
+ button{
+    border:none;
+    display:inline-block;
+    padding:1.2rem 2.8rem;
+    background:var(--harvestgold);
+    border-radius:4rem;
+    border-color:var(--harvestgold);
+    box-shadow: 0 0 1rem var(--harvestgold);
+    font-size:1.4rem;
+    color:var(--mirage);
+    letter-spacing:.1rem;
+    font-weight:600;
+    transition: .5s ease;
+ }
+ button:hover{
+    box-shadow:none;
  }
  
 ul{
     list-style-type: none;
-    display:flex;                                                                               
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;                                                                               
 }
 footer{
     width:100dvh;
@@ -163,64 +177,17 @@ footer{
     justify-content: center;
     align-items: center;
 }
-article{
-    overflow: hidden;
-    height:100%;
-}
-.titleright{
-    color:var(--romancoffee);
-    writing-mode: vertical-lr;
-    text-orientation: mixed;
-}
-.email{                                                                                                                                                                                                                                                                 
-    color:var(--romancoffee);
-    font-size:15px;
-    writing-mode: vertical-lr;
-    text-orientation:upright;
-    margin:auto;
-}
-.sidebarL{
-    height:100dvh;
-    width:160px;
-    background: #000;
-    z-index: 1;
-    position: fixed;
-    left:0%;
-    background:transparent;
-}
-.sidebarR{
-    height:100dvh;
-    width:160px;
-    background: #000;
-    z-index: 1;
-    position:fixed;
-    right:0%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    background:transparent;
-}
 .socials{
-    font-size: 45px;
+    font-size: 2.7rem;
     text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    position:relative;
-    transform: translatey(35dvh);
-    
-}
-.copyright{
-    font-size:medium;
-
-
 }
 .fa{
-    padding:20px;
+    padding:1rem;
     text-decoration: none;
+    transition:.5s ease;
 }
 .fa:hover{
-    opacity: 0.7;
+    color:var(--harvestgold);
 }
 /* set a color for each icon */
 .fa-instagram{
@@ -241,4 +208,5 @@ article{
 }
 .copyright{
     color:#785e4c;
+    font-size:1.2rem;
 }
