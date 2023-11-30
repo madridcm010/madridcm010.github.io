@@ -114,7 +114,7 @@ a:hover{
  }
  .navbar a{
     margin:0;
-    font-size:1.6rem;
+    font-size:1.9rem;
     padding:1rem;
     text-decoration:none;
     color:var(--romancoffee);
@@ -124,28 +124,30 @@ a:hover{
     color:var(--harvestgold);
     text-decoration:underline var(--harvestgold);
 }
- .profile span{
+ .text span{
     color:var(--romancoffee);
  }
- .profile span:hover{
+ .text span:hover{
     color:var(--harvestgold);
  }
  section{
     min-height:100vh;
-    padding:20rem 9% 2rem;
+    padding:10rem 9% 2rem;
  }
  .home{
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
  }
- .profile{ 
-    font-size:3.5rem; 
-    color:var(--harvestgold);  
-                                                                                                                            
+ .text{ 
+    font-size:4rem; 
+    color:var(--harvestgold);                                                                           
  }
- .profile pic{
-    
+ .profilepic{
+    border:transparent;
+    color:var(--mirage);
+    outline:none;
+    border-radius: 50%;
  }
  button{
     border:none;
@@ -181,7 +183,7 @@ footer{
     align-items: center;
 }
 .socials{
-    font-size: 2.7rem;
+    font-size: 3.1rem;
     text-decoration: none;
 }
 .fa{
