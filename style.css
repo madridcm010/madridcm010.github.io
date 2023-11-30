@@ -24,7 +24,7 @@ html{
 body{
     min-height:100%;
     padding:0;
-    margin:0px;
+    margin:0;
     background-color:var(--mirage);
     image-rendering: -webkit-optimize-contrast;
     background-size:cover;
@@ -145,9 +145,9 @@ a:hover{
     display:flex;
     flex-direction:column;
     justify-content:center;     
-    padding:22%;
-    margin:10px;
-    font-size:55px;
+    padding:10%;
+    margin:1rem;
+    font-size:4.2rem;
  }
  
 ul{
@@ -166,39 +166,6 @@ footer{
 article{
     overflow: hidden;
     height:100%;
-}
-.titleright{
-    color:var(--romancoffee);
-    writing-mode: vertical-lr;
-    text-orientation: mixed;
-}
-.email{                                                                                                                                                                                                                                                                 
-    color:var(--romancoffee);
-    font-size:15px;
-    writing-mode: vertical-lr;
-    text-orientation:upright;
-    margin:auto;
-}
-.sidebarL{
-    height:100dvh;
-    width:160px;
-    background: #000;
-    z-index: 1;
-    position: fixed;
-    left:0%;
-    background:transparent;
-}
-.sidebarR{
-    height:100dvh;
-    width:160px;
-    background: #000;
-    z-index: 1;
-    position:fixed;
-    right:0%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    background:transparent;
 }
 .socials{
     font-size: 45px;
