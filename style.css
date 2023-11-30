@@ -136,13 +136,16 @@ a:hover{
  }
  .home{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-   
+    justify-content: center;
+    align-items: center;
  }
  .profile{ 
-    font-size:4.2rem; 
-    color:var(--harvestgold);                                                                                                                          
+    font-size:3.5rem; 
+    color:var(--harvestgold);  
+                                                                                                                            
+ }
+ .profile pic{
+    
  }
  button{
     border:none;
