@@ -46,7 +46,7 @@ a:hover{
  .aboutme{
     height:100dvh;
     padding:15%;
-    width:65%;
+    width:100%;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -102,7 +102,7 @@ a:hover{
     align-items:center;     
  }
  .header{
-    position: fixed;
+    position:fixed;
     top:0;
     left:0;
     width:100%;
@@ -166,6 +166,39 @@ footer{
 article{
     overflow: hidden;
     height:100%;
+}
+.titleright{
+    color:var(--romancoffee);
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+}
+.email{                                                                                                                                                                                                                                                                 
+    color:var(--romancoffee);
+    font-size:15px;
+    writing-mode: vertical-lr;
+    text-orientation:upright;
+    margin:auto;
+}
+.sidebarL{
+    height:100dvh;
+    width:160px;
+    background: #000;
+    z-index: 1;
+    position: fixed;
+    left:0%;
+    background:transparent;
+}
+.sidebarR{
+    height:100dvh;
+    width:160px;
+    background: #000;
+    z-index: 1;
+    position:fixed;
+    right:0%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background:transparent;
 }
 .socials{
     font-size: 45px;
