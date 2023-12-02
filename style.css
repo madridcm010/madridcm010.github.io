@@ -27,8 +27,6 @@ body{
     margin:0;
     background-color:var(--mirage);
     background-size:cover;
-    scroll-snap-type: mandatory;
-    scroll-behavior: smooth;
  }
 a{
     color:var(--romancoffee);
