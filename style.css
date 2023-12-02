@@ -57,6 +57,10 @@ a:hover{
     border-style: solid;
     border-color:var(--nero);
  }
+ .aboutimage{
+    color:var(--mirage);
+    background-color: var(--mirage);
+ }
  .skillset{
     height:100dvh;
     padding:5%;
