@@ -27,6 +27,8 @@ body{
     margin:0;
     background-color:var(--mirage);
     background-size:cover;
+    scroll-snap-type: mandatory;
+    scroll-behavior: smooth;
  }
 a{
     color:var(--romancoffee);
@@ -50,16 +52,13 @@ a:hover{
     flex-direction:row;
     justify-content:center;
     align-items:center; 
-    border-bottom:.1rem;
-    border-top:.1rem;
-    border-left:0;
-    border-right:0;
-    border-style: solid;
-    border-color:var(--nero);
+    font-size:1.5rem;
  }
- .aboutimage{
-    color:var(--mirage);
-    background-color: var(--mirage);
+ .aboutme h1{
+    color:var(--romancoffee);
+ }
+ .aboutme p{
+    color:var(--harvestgold)
  }
  .skillset{
     height:100dvh;
@@ -150,7 +149,7 @@ a:hover{
     border:transparent;
     color:var(--mirage);
     outline:none;
-    border-radius: 50%;
+    border-radius:50% 50%;
  }
  button{
     border:none;
