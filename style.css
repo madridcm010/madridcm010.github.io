@@ -58,40 +58,44 @@ a:hover{
  .aboutme p{
     color:var(--harvestgold)
  }
- .skillset{
+ .skill-container{
+   display:flex;
+ }
+ .leftside{
     height:100dvh;
-    padding:5%;
+    width:50%;
     display:flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content:center;
-    align-items:center; 
-    border-bottom:.1rem;
-    border-top:0px;
-    border-left:0px;
-    border-right:0px;
-    border-style: solid;
-    border-color:var(--nero);                                                                                   
- }                                                                                      
-.icons{
-    padding-top:10%;
-    margin:5%;
-    font-size:4rem;
-    background:transparent;
-    color:#785e4c;
-    gap:2.2%;
+    align-items:center;                                                                                
+ } 
+ .rightside{
+   height:100dvh;
+   width:50%;
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center; 
+ }                                                              
+ .icon{
+   display: flex;
+   font-size:6rem;
+   background:transparent;
+   color:var(--romancoffee);
+   margin:5%;
+   transition: .5s ease;
  }
- .title span{
-    font-size:150px;
-    font-weight: 900px;
+ .icon i:hover{
+    transform: translatex(-30%);
+    opacity: 0.8;
  }
- .title h2{
-    font-size:100px;
-    font-weight: 800px;
+ .icon img:hover{
+   opacity: 0.5;
  }
- .icons i:hover{
-    transform: translatey(25px);
-    scale:2;
-    opacity: 0.7;
+ .title{
+   color:var(--romancoffee);
+   font-size:2rem;
+   font-weight:600px;
  }
  .projects{
     height:100dvh;
