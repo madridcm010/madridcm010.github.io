@@ -108,25 +108,25 @@ a:hover{
  }
  .card-image{
     display:flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    flex-wrap:wrap;
-    gap:10.2%;
-    overflow-x:hidden;
+    gap:15%;
+    padding:10%;
     transition: .5s ease;
  }
  .card-image img:hover{
     opacity:0.5
-
- }
- .card-image img:hover + .card-text{
-    display:block;
  }
  .card-text{
     color:var(--white);
-    font-size:1.2rem;
-    max-width: fit-content;
-    display:none;
+    font-size:1.1rem;
+ }
+ .card-text a{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   color:var(--Muesli);
+   font-size:3.1rem;
  }
  .card-text h3{
     color:var(--romancoffee);
