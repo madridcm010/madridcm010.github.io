@@ -13,8 +13,8 @@ html{
     overflow-x: hidden;
 }
 *{
-    padding:0;
-    margin:0;
+    padding:0%;
+    margin:0%;
     box-sizing:border-box;
     font-family:'Poppins', sans-serif;
 }
@@ -23,8 +23,8 @@ html{
 }
 body{
     min-height:100%;
-    padding:0;
-    margin:0;
+    padding:0%;
+    margin:0%;
     background-color:var(--mirage);
     background-size:cover;
  }
@@ -122,11 +122,12 @@ a:hover{
     font-size:1.1rem;
  }
  .card-text a{
-   display:flex;
+   padding:1.5rem;
+   margin:1.5rem;
    justify-content:center;
    align-items:center;
    color:var(--Muesli);
-   font-size:3.1rem;
+   font-size:2.1rem;
  }
  .card-text h3{
     color:var(--romancoffee);
