@@ -181,7 +181,7 @@ a:hover{
     outline:none;
     border-radius:50% 50%;
  }
- button{
+ .btn{
     border:none;
     display:inline-block;
     padding:1.2rem 2.8rem;
@@ -195,7 +195,7 @@ a:hover{
     font-weight:600;
     transition: .5s ease;
  }
- button:hover{
+ .btn:hover{
     box-shadow:none;
  }
  
