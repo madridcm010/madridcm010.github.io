@@ -4,14 +4,13 @@
  .text span:hover{
     color:var(--harvestgold);
  }
- section{
-    min-height:100vh;
-    padding:10rem 9% 2rem;
- }
  .home{
+    min-height:100vh;
+    max-width:70vw;
+    padding:10rem 9% 2rem;
     display:flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
  }
  .text{ 
     font-size:4rem; 
