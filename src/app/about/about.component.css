@@ -1,0 +1,25 @@
+ /*
+ About  ME SECTION!!!!!!
+ */
+ .aboutme{
+    height:100%;
+    width:100vw;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center; 
+    font-size:1.5rem;
+    overflow-x:auto;
+    top:50%;
+ }
+ .aboutme h1{
+    color:var(--romancoffee);
+ }
+ .aboutme p{
+    color:var(--harvestgold)
+ }
+ section{
+    min-height:100vh;
+    padding:0;
+    min-width: 100vw;
+ }  

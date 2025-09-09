@@ -21,6 +21,7 @@
     color:var(--mirage);
     outline:none;
     border-radius:50% 50%;
+    top:5%;
  }
  .btn{
     border:none;
@@ -79,3 +80,8 @@ a:link{
     text-decoration: none;
 
 }
+section{
+    min-height:100vh;
+    padding:10rem 9% 2rem;
+    min-width: 100vw;
+ }  

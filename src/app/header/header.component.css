@@ -37,7 +37,7 @@ ul{
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: var(--mirage);
+  background-color: transparent;
 }
 .menu-toggle {
   display: none;
