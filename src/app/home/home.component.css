@@ -1,0 +1,82 @@
+ .text span{
+    color:var(--romancoffee);
+ }
+ .text span:hover{
+    color:var(--harvestgold);
+ }
+ section{
+    min-height:100vh;
+    padding:10rem 9% 2rem;
+ }
+ .home{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .text{ 
+    font-size:4rem; 
+    color:var(--harvestgold);                                                                           
+ }
+ .profilepic{
+    border:transparent;
+    color:var(--mirage);
+    outline:none;
+    border-radius:50% 50%;
+ }
+ .btn{
+    border:none;
+    display:inline-block;
+    padding:1.2rem 2.8rem;
+    background:var(--harvestgold);
+    border-radius:4rem;
+    border-color:var(--harvestgold);
+    box-shadow: 0 0 1rem var(--harvestgold);
+    font-size:1.4rem;
+    color:var(--mirage);
+    letter-spacing:.1rem;
+    font-weight:600;
+    transition: .5s ease;
+ }
+ .btn:hover{
+    box-shadow:none;
+ }
+ .socials{
+    font-size: 3.1rem;
+    text-decoration: none;
+}
+.fa{
+    padding:1rem;
+    text-decoration: none;
+    transition:.5s ease;
+}
+.fa:hover{
+    color:var(--harvestgold);
+}
+/* set a color for each icon */
+.fa-instagram{
+    background: transparent;
+    color:var(--romancoffee);
+}
+.fa-linkedin{
+    background:transparent;
+    color:var(--romancoffee);
+}
+.fa-github{
+    background:transparent;
+    color:var(--romancoffee);
+}
+.fa-twitter{
+    background:transparent;
+    color:var(--romancoffee);
+}
+a{
+    color:var(--romancoffee);
+    transition: .5s ease;
+}
+a:hover{
+    color:var(--harvestgold);
+}
+a:link{
+    text-decoration: none;
+
+}
