@@ -1,5 +1,5 @@
 <header class="header">
-    <a routerLink="/" class="logo">Christian</a>
+    <a [routerLink]="['.']" fragment="home" class="logo">Christian</a>
     <div class="menu-toggle" (click)="toggleMenu()">{{ menuOpen ? '✖' : '☰'}} </div>
     <nav class="navbar" [ngClass]="{ 'active': menuOpen }">
         <ul>
