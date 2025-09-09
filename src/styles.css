@@ -10,9 +10,9 @@
     --white:#FFF;
 }
 html{
-    height:100%;
+    
     overflow-x: hidden;
-    overflow-y: hidden;
+    scroll-behavior: smooth;
 }
 *{
     padding:0%;
@@ -21,10 +21,10 @@ html{
     font-family:'Poppins', sans-serif;
 }
 body{
-    min-height:100%;
+    
     padding:0%;
     margin:0%;
     background-color:var(--mirage);
     background-size:cover;
-    overflow:hidden;
+   
  }

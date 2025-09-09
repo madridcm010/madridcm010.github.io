@@ -4,16 +4,19 @@
     <nav class="navbar" [ngClass]="{ 'active': menuOpen }">
         <ul>
             <li>
-                <a routerLink="/">Home</a>
+                <a [routerLink]="['.']" fragment ="home">Home</a>
             </li>
             <li>
-                <a routerLink="/About">About</a>
+                <a [routerLink]="['.']" fragment ="about">About</a>
             </li>
             <li>
-                <a routerLink="/Experience">Experience</a>
+                <a [routerLink]="['.']" fragment ="experience">Experience</a>
             </li>
             <li>
-                <a routerLink="/Projects">Projects</a>
+                <a [routerLink]="['.']" fragment ="projects">Projects</a>
+            </li>
+            <li>
+                <a [routerLink]="['.']" fragment ="contact">Contact</a>
             </li>
         </ul>
     </nav>
