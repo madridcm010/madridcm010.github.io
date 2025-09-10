@@ -38,6 +38,8 @@ ul{
   align-items: center;
   padding: 20px;
   background-color: transparent;
+  position: sticky;
+  top:0;
 }
 .menu-toggle {
   display: none;

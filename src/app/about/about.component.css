@@ -2,12 +2,12 @@
  About  ME SECTION!!!!!!
  */
  .aboutme{
-    height:100%;
+    height:100vh;
     width:100vw;
     display:flex;
     flex-direction:row;
     justify-content:center;
-    align-items:center; 
+    align-items:center;
     font-size:1.5rem;
     overflow-x:auto;
     top:50%;
@@ -19,7 +19,7 @@
     color:var(--harvestgold)
  }
  section{
-    min-height:100vh;
+    min-height:100%;
     padding:0;
     min-width: 100vw;
  }  

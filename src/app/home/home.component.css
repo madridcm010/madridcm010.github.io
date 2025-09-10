@@ -7,22 +7,30 @@
  .home{
     min-height:100vh;
     max-width:70vw;
-    padding:10rem 9% 2rem;
     display:flex;
     justify-content: flex-start;
     align-items: flex-start;
  }
  .text{ 
-    font-size:4rem; 
-    color:var(--harvestgold);                                                                           
+    font-size:6rem; 
+    color:var(--harvestgold); 
+                                                                             
  }
- .profilepic{
-    border:transparent;
-    color:var(--mirage);
-    outline:none;
-    border-radius:50% 50%;
-    margin-left: auto;
- }
+.profilepic {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeInRight 1s ease-in-out;
+}
+
+.profilepic img {
+  width: 60%;
+  height: auto;
+  border-radius: 10%;
+  box-shadow: 0 0 50px rgba(230, 176, 119, 0.4);
+  object-fit: cover;
+}
  .btn{
     border:none;
     display:inline-block;
