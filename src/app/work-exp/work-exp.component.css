@@ -4,7 +4,6 @@ padding:10rem 9% 2rem;
 max-width: 100vw;
 display:flex;
 justify-content: flex-start;
-gap:7%;
 }
 .cards{
    height:100vh;
@@ -14,15 +13,35 @@ gap:7%;
     justify-content: center;
     font-size: 1.5rem;
     font-weight: 1000;
+    color:var(--romancoffee);
+    transition: .5s ease;
+}
+.text:hover{
+    color:var(--harvestgold);
 }
 .companylogo{
-    height:35%;
+    height:28vh;
     font-size:1.2rem;
-    border-radius: 5%;
-    border-color:var(--romancoffee);
-    background-color: aliceblue;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color:var(--romancoffee);
+    overflow-x:hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.companylogo h1{
+    font-size:2.5rem;
+    
 }
 .companycontent{
-    height: 35%;
-    
+    height: 28vh;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px;
+    background-color:var(--harvestgold);
+    opacity: 85%;
+}
+p{
+    font-size: 1.4rem;
 }
