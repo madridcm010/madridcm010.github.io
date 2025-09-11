@@ -1,1 +1,31 @@
-<p>footer works!</p>
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-left">
+            <h3>Christian</h3>
+            <p>Full-Stack Developer | Angular • HTML • CSS • Go • .Net</p>
+        </div>
+        <div class="footer-center">
+            <ul class="footer-links">
+                <li><a [routerLink]= "['.']" fragment="about">About</a></li>
+                <li><a [routerLink]= "['.']" fragment="experience">Experience</a></li>
+                <li><a [routerLink]= "['.']" fragment="projects">Projects</a></li>
+                <li><a href="assets/CV.pdf" target="_blank">Download CV</a></li>
+            </ul>
+        </div>
+        <div class="footer-right">
+            <p>Connect with me:</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/madridcm010" target="_blank" rel="noopener noreferrer"
+                    class="fa fa-linkedin"></a>
+                <a href="https://github.com/madridcm010" target="_blank" rel="noopener noreferrer"
+                    class="fa fa-github"></a>
+                <a href="https://twitter.com/Madridcm010" target="_blank" rel="noopener noreferrer"
+                    class="fa fa-twitter"></a>
+                <a href="mailto:madridcm010@gmail.com"><i class="fa fa-envelope"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; {{ today | date:'yyyy' }} Christian. All rights reserved.</p>
+    </div>
+</footer>
