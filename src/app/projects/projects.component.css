@@ -18,9 +18,9 @@ section{
 }
 .cards{
     justify-content: center;
-    gap:3%;
+    gap:2%;
     align-items: flex-end;
-    height:45vh;
+    height:100vh;
 }
 img{
     box-shadow: 0 0 25px var(--romancoffee); 
@@ -33,4 +33,12 @@ h1{
     font-size:2rem;
     text-align:center;
     padding:5%;
+}
+@media screen and (max-width:1600px){
+    .cards{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
 }

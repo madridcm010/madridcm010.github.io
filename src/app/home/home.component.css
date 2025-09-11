@@ -92,4 +92,11 @@ section{
     min-height:100vh;
     padding:10rem 9% 2rem;
     min-width: 100vw;
- }  
+}
+@media screen and (max-width:1600px){
+    .text{
+        font-size:4rem;
+        padding:0 0 0;
+        
+    }
+}

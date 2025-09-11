@@ -19,19 +19,28 @@ section {
     transition: .5s ease;
     text-decoration: underline;
     font-family:"Satisfy";
+    
 }
 
 .text:hover {
     color: var(--harvestgold);
 }
-
+@media screen and (max-width:1600px){
+    .text{
+        height:5vh;
+    }
+    .companycontent p{
+        font-size:.78rem;
+    }
+   
+}
 .companylogo {
     height: 28vh;
     font-size: 1.2rem;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     background-color: var(--romancoffee);
-    overflow-x: hidden;
+    overflow-x:visible;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -55,4 +64,19 @@ section {
 
 p {
     font-size: 1.4rem;
+}
+@media screen and (max-width:450px) {
+    .cards{
+        height:70vh;
+    }
+    .companycontent{
+        height:46vh;
+    }
+    .companylogo{
+        height:46vh;
+    }
+    .companylogo h1{
+        font-size:2rem;
+        
+    }
 }
